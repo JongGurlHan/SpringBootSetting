@@ -27,7 +27,7 @@ spring:
           starttls:
             enable: true
 mybatis:
-  type-aliases-package: com.example.sbs.demo.dto # dto의 풀 패키지 명 입력
+  type-aliases-package: bootSettingPractice.dto # dto의 풀 패키지 명 입력
 custom:
   logoText: CUNI # 사이트 명 치환
   uploadDir: C:/work/abc/uploads # 파일업로드 되는 곳 치환
